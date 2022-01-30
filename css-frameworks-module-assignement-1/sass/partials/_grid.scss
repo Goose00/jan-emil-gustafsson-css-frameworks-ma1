@@ -5,4 +5,15 @@
   padding: 5em;
   height: 50%;
   width: 50%;
+
+  @media (min-width: $tablet-width) {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+.card-body {
+  padding: 2em;
+  display: flex;
+  align-content: center;
 }
