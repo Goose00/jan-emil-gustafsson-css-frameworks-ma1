@@ -1,0 +1,18 @@
+.navbar-brand {
+  font-family: 'Open Sans Regular', sans-serif;
+  font-size: 36px;
+  color: #262626 !important;
+}
+
+.navbar {
+  text-transform: uppercase;
+  color: #707070;
+}
+
+.navbar-light .nav-link .active {
+  color: $navbar-light-active-color;
+}
+
+.navbar-collapse {
+  z-index: 1;
+}
